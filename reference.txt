@@ -1,0 +1,41 @@
+1. How to Open Your Project in Browser?
+http://localhost/registration-app/register.html
+  *http://localhost:8000/registration-app/login_form.php
+http://localhost/registration-app/login_form.php
+
+
+
+2.Open phpMyAdmin:
+http://localhost/phpmyadmin
+
+3.Create your database manually (for example, mydatabase).Then use it in your PHP scripts like:
+$conn = new mysqli("localhost", "root", "", "mydatabase");
+
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    address TEXT NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    gender VARCHAR(10) NOT NULL,
+    faculty VARCHAR(100) NOT NULL,
+    program VARCHAR(100) NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+4. Make sure you have installed:
+        MySQL server
+        Node.js and npm
+        Required packages via terminal:
+
+        npm init -y
+        npm install express mysql2 body-parser
+
+5. Start your server:
+    node server.js
+    Visit http://localhost:3000
+
+6. Install bcrypt if you haven't already:
+    npm install bcrypt
