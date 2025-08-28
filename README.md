@@ -9,3 +9,12 @@ and go with live server with the entry page.
 # registration-form
 Just a basic registration form which stores the data in mysql database and users can also logged in for main dashboard.
 
+## Author
+
+**Himal Pandey**
+
+**Portfolio:** himalpandey.vercel.app
+
+**GitHub:** github.com/pandeyhimal
+
+**LinkedIn:** https://www.linkedin.com/in/himal-pandey-297988225/
