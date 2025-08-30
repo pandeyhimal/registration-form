@@ -13,8 +13,8 @@ Just a basic registration form which stores the data in mysql database and users
 
 **Himal Pandey**
 
-**Portfolio:** himalpandey.vercel.app
+**Portfolio:** [himalpandey.vercel.app](https://himalpandey.vercel.app/)
 
-**GitHub:** github.com/pandeyhimal
+**GitHub:** [github.com/pandeyhimal](https://github.com/pandeyhimal)
 
 **LinkedIn:** https://www.linkedin.com/in/himal-pandey-297988225/
